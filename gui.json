@@ -1,0 +1,45 @@
+{
+  "title": "Painel Principal",
+  "tabs": [
+    {
+      "id": "movement",
+      "label": "Movimento",
+      "components": [
+        {
+          "type": "toggle",
+          "id": "speed_toggle",
+          "label": "Speed",
+          "moduleId": "speed"
+        },
+        {
+          "type": "slider",
+          "id": "speed_multiplier",
+          "label": "Multiplicador",
+          "moduleId": "speed",
+          "property": "multiplier",
+            "min": 1,
+            "max": 10,
+            "step": 1
+        },
+        {
+          "type": "toggle",
+          "id": "fly_toggle",
+          "label": "Fly",
+          "moduleId": "fly"
+        }
+      ]
+    },
+    {
+      "id": "render",
+      "label": "Renderização",
+      "components": [
+        {
+          "type": "toggle",
+          "id": "fullbright_toggle",
+          "label": "FullBright",
+          "moduleId": "fullbright"
+        }
+      ]
+    }
+  ]
+}
