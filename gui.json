@@ -34,7 +34,13 @@
           "type": "toggle",
           "id": "fly_toggle",
           "label": "Fly",
-          "moduleId": "fly"
+          "moduleId": "fly",
+          "onEnable": [
+            { "action": "enableFly" }
+          ],
+          "onDisable": [
+            { "action": "disableFly" }
+          ]
         }
       ]
     },
